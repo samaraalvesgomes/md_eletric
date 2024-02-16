@@ -1,0 +1,21 @@
+Whatsapp
+
+<i aria-hidden="true"></i>
+
+
+
+E-mail
+
+<span>
+    <i aria-hidden="true" class="icon icon-mail"></i>
+</span>
+
+
+
+
+Endereço
+
+<span>
+    <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" class="lakit-font-icon-svg"><use xlink:href="#dlicon___location_map_compass"></use></svg>
+    <use xlink:href="#dlicon___location_map_compass"></use>
+</span>
