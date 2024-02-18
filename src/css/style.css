@@ -176,4 +176,55 @@ nav {
     align-items: center;
     position: absolute;
     height: calc(100% - 35%);
+} 
+
+
+
+
+#comprometimento {
+    background-color: #1C1C1C;
+    height: 100vh;
+}
+
+#comprometimento #caixa {
+    height: 100%;
+    width: 100%;
+    padding: 5% 0;
+}
+
+.comprometimento_parte1 {
+    display: flex;
+}
+
+.espacamento_2 {
+    width: 44%;
+}
+
+#conteudo_comprometimento h3 {
+    color: #ff8b2f;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 0 30px 0;
+    text-align: center;
+   
+}
+
+#conteudo_comprometimento h2 {
+    font-weight: bolder;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 17px;
+    line-height: 40px;
+}
+
+.img_comprometimento {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.img_comprometimento img {
+    width: 41%;
+    margin-top: 2%;
 }
