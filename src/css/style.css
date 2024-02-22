@@ -262,6 +262,7 @@ nav {
     text-align: center;
     display: flex;
     gap: 20px;
+    padding: 0 7% 0 0;
 }
 
 .caixa_servicos_blocos {
