@@ -231,9 +231,8 @@ nav {
 }
 
 
-#oq_fazemos {
 
-}
+
 
 .caixa_oq_fazemos {
   margin: 0 10% 2% 10%;
@@ -256,25 +255,28 @@ nav {
 
 
 .caixa_servicos {
-    width: 1300px;
+    width: 1350px;
     justify-content: center;
     align-items: center;
     text-align: center;
     display: flex;
     gap: 20px;
-    padding: 0 7% 0 0;
+    flex-wrap: wrap;
+    
 }
 
 .caixa_servicos_blocos {
-    width: 100%;
+    width: 436px;
     height: 627px;
-    padding: 2% 2% 0 2%;
-    border: 1px solid #6a6a6a; 
+    padding: 1% 1% 0 1%;
     border-radius: 8px; 
+    box-shadow: 5px 5px 1em #adacac; 
 }
+
 
 .caixa_servicos_blocos img {
     border-radius: 8px;
+
 }
 
 .servico_bloco {
@@ -282,11 +284,10 @@ nav {
     font-size: 21px;
     text-align: center;
     color: #1C1C1C;
-    margin: 4% 0;
+    margin: 4% 0 7% 0;
 }
 
 .btn_saiba {
-    text-align: end;
     border: 1px solid #faf9f9;
 }
 
@@ -299,7 +300,4 @@ nav {
     border-radius: 8px;
     font-weight: bold;
     font-size: 16px;
-    margin-top: 10px;
-
-
 }
