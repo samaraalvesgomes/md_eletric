@@ -305,3 +305,41 @@ nav {
     font-weight: bold;
     font-size: 16px;
 }
+
+
+
+
+
+.background{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center; 
+}
+
+.background img{
+    filter: grayscale(55%); 
+    filter: brightness(60%);
+}
+
+.background .background_dados{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+}
+
+.background .background_dados h3{
+    color: #ff8b2f;
+    font-weight: bold;
+}
+
+.background .background_dados h2{
+    font-weight: bolder;
+    font-family: "Heebo", sans-serif;
+    font-size: 42px;
+    color: #fff;
+}
