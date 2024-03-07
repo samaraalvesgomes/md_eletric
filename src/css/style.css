@@ -266,7 +266,7 @@ nav {
     flex-wrap: wrap;
     margin-right: 10%;
     margin-left: 0%;
-    
+    margin-bottom: 7%;
 }
 
 .caixa_servicos_blocos {
@@ -280,7 +280,6 @@ nav {
 
 .caixa_servicos_blocos img {
     border-radius: 8px;
-
 }
 
 .servico_bloco {
@@ -377,38 +376,63 @@ footer{
     background-color: black;
     display: flex;
     color: #faf9f9;
-    padding: 7% 6%;
+    padding: 7% 4%;
 } 
 
-/*primeira coluna (logo)*/
 footer .logo_footer {
     width: 18%;
     margin-right: 5%;
-    margin-left: 2%;
 }
 
 footer img{
     width: 100%;
+    margin-bottom: 5%;
 }
 
-/*coluna inteira do serviços*/
+footer .logo_footer p{
+    line-height: 150%;
+}
+
 footer div section{
     display: flex;
     gap: 1%;
+    margin: 7% 0 0 0;
 }
 
-/*coluna institucional*/
-footer  .institucional{ /*arrumar alinhamento dos icones*/
-    width: 12%;
-    margin-right: 5%;
+footer div section li{
+    padding-bottom: 7%;
 }
 
-/*pequenos detalhes*/
+footer  .institucional{ 
+    width: 14%;
+    margin: 0 2% 0 2%;
+}
+
+footer .institucional ul{
+    margin: 20% 0 0 0;
+}
+footer .institucional li{
+    padding-bottom: 12%;
+}
+
+footer .links ul{
+    margin: 20% 0 0 0;
+}
+
+footer .links li{
+    padding-bottom: 11%;
+}
+
+footer .links h5{
+    font-size: 15px;
+    margin: 8% 0 4% 0;
+}
+
 footer li{
     list-style: outside;
     color: #ff8b2f;
-    margin: 7% 0;
 }
+
 footer li a{
     color: #faf9f9;
 }
