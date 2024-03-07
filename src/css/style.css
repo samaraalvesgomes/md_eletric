@@ -374,9 +374,13 @@ nav {
 
 footer{
     background-color: black;
+    color: #faf9f9;
+} 
+
+footer #footer_principal{
     display: flex;
     color: #faf9f9;
-    padding: 7% 4%;
+    padding: 7% 4% 3% 4%;
 } 
 
 footer .logo_footer {
@@ -435,4 +439,21 @@ footer li{
 
 footer li a{
     color: #faf9f9;
+}
+
+footer #direitos_autorais{
+    border-top: double #565656;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
+
+footer #direitos_autorais p{
+    line-height: 160%;
+}
+footer #direitos_autorais #identidade{
+    color: #cccccc;
+    font-size: 13.6px;
 }
