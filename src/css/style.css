@@ -130,18 +130,69 @@ nav {
     line-height: 30px;
 }
 
-.btn_topicos {
+.ocult_btn_topicos1{
+    border: none;
+}
+
+.btn_topicos_btn {
     display: flex;
     justify-content: left;
     align-items: center;
     background-color: #ff8b2f;
     color: #faf9f9;
-    border-bottom: 1px solid #faf9f9;
-    padding: 18px 20px;
-    border: 1px solid #faf9f9;
+    padding: 13px 18px;
+    border: 1px solid #dedede;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
 }
+
+.ocult_btn_topicos1{
+    display: none;
+    padding: 13px 18px;
+    text-align: justify;
+    line-height: 2;
+    color: #6a6a6a;
+    background-color: #faf9f9;
+    border: 1px solid #cbcbcb;
+    font-size: 15px;
+}
+
+.ocult_btn_topicos1_visible{
+    display: block;
+}
+
+.ocult_btn_topicos2{
+    display: none;
+    padding: 13px 18px;
+    text-align: justify;
+    line-height: 2;
+    color: #6a6a6a;
+    background-color: #faf9f9;
+    border: 1px solid #cbcbcb;
+    font-size: 15px;
+}
+
+.ocult_btn_topicos2_visible{
+    display: block;
+}
+
+.ocult_btn_topicos3{
+    display: none;
+    padding: 12px 20px 12px 40px;
+    text-align: justify;
+    line-height: 2;
+    color: #6a6a6a;
+    background-color: #faf9f9;
+    border: 1px solid #cbcbcb;
+    font-size: 15px;
+}
+
+.ocult_btn_topicos3_visible{
+    display: block;
+}
+
+
+
 
 #espacamento {
     width: 5%; 
